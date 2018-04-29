@@ -13,7 +13,6 @@ from __future__ import print_function
 import argparse
 import os
 import struct
-import sys
 try:
     from StringIO import StringIO
 except ImportError:
