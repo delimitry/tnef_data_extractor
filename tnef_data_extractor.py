@@ -7,6 +7,7 @@ References:
 https://msdn.microsoft.com/en-us/library/ee203101(v=exchg.80).aspx
 https://msdn.microsoft.com/en-us/library/ee157583(v=exchg.80).aspx
 """
+
 from __future__ import print_function
 
 import argparse
@@ -21,8 +22,6 @@ import compressed_rtf
 
 
 TNEF_SIGNATURE = 0x223e9f78
-
-PY3 = sys.version_info[0] == 3
 
 
 def unpack_uint8(data):
