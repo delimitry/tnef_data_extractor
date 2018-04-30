@@ -1,7 +1,8 @@
 # TNEF data extractor
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/delimitry/tnef_data_extractor/blob/master/LICENSE)
 
-A tool in Python for extracting data, like attachments and e-mail content (in compressed RTF format), from TNEF files (e.g. `winmail.dat`).
+A tool in Python for extracting data, like attachments and email body (in compressed RTF format), from TNEF files (e.g. `winmail.dat`).  
+A tool is compatible with both Python 2.7 and Python 3.4+.
 
 Installation:
 -------------
